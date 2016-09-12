@@ -161,3 +161,8 @@ input[type="submit"] {
 .site-title {
 	font-family: 'Pacifico', cursive;
 }
+
+#ama {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
