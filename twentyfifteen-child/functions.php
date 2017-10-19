@@ -25,7 +25,12 @@ class MyCustomTheme
 			return "Invalid date. Use for example: [years_elapsed date=2017-07-12]";
 		}
 	}
+
+    public static function addMetaReferrerTag() {
+        echo '<meta name="referrer" content="always" />';
+    }
 }
 
 add_action('wp_enqueue_scripts', 'MyCustomTheme::enqueueStyles');
+add_action('wp_meta', 'MyCustomTheme::addMetaReferrerTag');
 add_shortcode('years_elapsed', 'MyCustomTheme::yearsElapsed');
