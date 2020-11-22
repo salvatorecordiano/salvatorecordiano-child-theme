@@ -160,6 +160,11 @@ input[type="submit"] {
 
 .site-title {
 	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.site-description {
+	text-align: center;
 }
 
 #ama {
