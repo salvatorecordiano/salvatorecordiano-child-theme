@@ -7,7 +7,6 @@ class MyCustomTheme
 		// enqueue parent styles
 		wp_enqueue_style('parent-theme', get_template_directory_uri() .'/style.css');
 		// enqueue fonts
-		wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 		wp_enqueue_style('font-pacifico', 'https://fonts.googleapis.com/css?family=Pacifico');
 		wp_enqueue_style('font-lato', 'https://fonts.googleapis.com/css?family=Lato');
 		// enqueue child styles
